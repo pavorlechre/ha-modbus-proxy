@@ -1,3 +1,5 @@
-name: Modbus Proxy
-url: https://github.com/pavorlechre/ha-modbus-proxy
-maintainer: pavorlech
+{
+  "name": "Modbus Proxy",
+  "url": "https://github.com/pavorlechre/ha-modbus-proxy",
+  "maintainer": "pavorlech"
+}
