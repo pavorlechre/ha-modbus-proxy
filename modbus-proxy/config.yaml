@@ -1,13 +1,15 @@
 name: Modbus Proxy
 version: "1.0.0"
 slug: modbus_proxy
-description: Modbus TCP proxy – umožňuje více klientům přistupovat k jednomu Modbus zařízení
+description: Modbus TCP proxy - umožňuje více klientům přistupovat k jednomu Modbus zařízení
 url: ""
 arch:
   - aarch64
   - armv7
   - amd64
+startup: services
 init: false
+build: .
 ports:
   5020/tcp: 5020
 ports_description:
